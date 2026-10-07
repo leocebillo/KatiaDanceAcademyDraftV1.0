@@ -11,9 +11,16 @@
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="bg-color nobar">
-<div class="picado" id="picado" aria-hidden="true"></div>
+<div class="flag-strip" id="flagStrip" aria-hidden="true"></div>
 <div class="wrap">
-<nav aria-label="Main"><b>Baila con Katia</b><div id="menu"><a href="index.html">Home</a><a href="classes.html">Classes</a><a href="about.html">About</a><a href="pricing.html" aria-current="page">Pricing</a><a href="contact.html">Contact</a><a class="btn" href="pricing.html" style="padding:9px 18px;font-size:15px">Sign up</a></div></nav>
+<nav aria-label="Main"><b>Baila con Katia</b><div id="menu">
+<a href="index.html">Home</a>
+<a href="classes.html">Classes</a>
+<a href="about.html">About</a>
+<a href="pricing.html" aria-current="page">Pricing</a>
+<a href="contact.html">Contact</a>
+<a class="btn nav-cta" href="pricing.html">Sign up</a>
+</div></nav>
 </div>
 <section class="hot" id="pay"><div class="wrap pay">
 <div>
@@ -33,16 +40,16 @@
 <label for="cn">Card number</label><input id="cn" inputmode="numeric" autocomplete="cc-number" placeholder="1234 5678 9012 3456">
 <div class="two"><div><label for="ex">Expires</label><input id="ex" placeholder="MM / YY" autocomplete="cc-exp"></div><div><label for="cv">CVC</label><input id="cv" inputmode="numeric" autocomplete="cc-csc"></div></div>
 </div>
-<p id="alt" class="note" style="display:none"></p>
+<p id="alt" class="note" hidden></p>
 <div class="total"><span>Total</span><span id="tot">$0</span></div>
 <button class="btn" type="submit">Confirm and pay</button>
-<div id="done" role="status"></div>
+<div id="done" role="status" hidden></div>
 <p class="note">Demo checkout: no real charges yet.</p>
 </form>
 </div>
 </div></section>
 
-<div class="bar" id="bar"><a class="btn" href="pricing.html">Book a class</a><a class="btn ghost" href="contact.html">Visit</a></div>
+<div class="bar"><a class="btn" href="pricing.html">Book a class</a><a class="btn ghost" href="contact.html">Visit</a></div>
 <footer><div class="wrap">© 2026 Baila con Katia Dance Academy · Made with corazón in the 956</div></footer>
 <script src="js/main.js"></script>
 </body>
